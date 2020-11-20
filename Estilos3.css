@@ -1,0 +1,128 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+header {
+	width:100%;
+	background:#FFFFFF;
+}
+
+/* menu*/
+.navegacion{
+	width=100%;
+	display:flex;
+	justify-content:flex-end;
+}
+
+.navegacion ul {
+	margin:0;
+	list-style:none;
+	padding:0;
+}
+
+
+
+.navegacion ul a {
+	display: block;
+	padding: 15px 20px;
+	color:#F8AF07;
+	text-decoration:none;
+	
+}	
+
+.menu > li{
+	position:relative;
+	display:inline-block;
+	
+}
+
+
+.menu > li > a{
+
+display:block;
+padding: 15px 20 px;
+color: #F8AF07;
+font-family:sans-serif;
+text-decoration:none;
+background:rgba(0,0,0,0.7);
+}
+
+.menu >li> a:hover{
+	
+	color:#000000;
+	transition:all .3s;
+}
+
+/* submenu*/
+
+.submenu{
+	Position:absolute;
+	width:130%;
+	background:rgba(0,0,0,0.5);
+	display:none;
+}
+
+.submenu li:hover{
+	background-color:rgba(0,0,0,0.8);
+}
+
+.submenu li a{
+	display:block;
+	padding: 15px;
+	color:#F8AF07;
+	font-family:sans-serif;
+	text-decoration:none;
+	width:150%;
+	}
+
+.menu li:hover .submenu {
+	display:block;
+	
+}
+.principal {width:95%}
+
+div {
+	width:193px;
+	display:inline-block;
+	text-align:center;
+}
+
+
+h1{
+	font-size:60px
+}
+
+	.titulo header{
+	
+	background: #ffffff;
+	
+	}
+	.bloque3{
+		display:inline-block;
+		padding:20px;
+	}
+
+.PrecioPlan { background:#F9F7F7;
+color:#000000}
+
+h2{color:#F8AF07;
+font-size:30px;
+	
+}
+
+.nota{
+	font-size:11px;
+}
+
+.ContenidoPlan{
+	background:#ffffff;
+	
+}
+
+footer {
+	display:inline-block;
+	padding: 10px 10px;
+	width:100%;
+	color:#ffffff;
+	background:#000000;
+	}
